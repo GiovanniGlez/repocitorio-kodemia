@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+}
+
+.navmenu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logopazioli{
+    max-height: 50%;
+}
+.carrito{
+    max-height: 30%;
+}
+.logocontainer{
+    padding-top: 30px;
+}
+
+.navmenuitems a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    list-style: none;
+    padding: 50px 10px;
+
+}
+
+.navmenuitems ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    width: 60%;
+    justify-content: right;
+
+
+
+}
+.botoncontactanos{
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+
+
+}
+
+
+.listcontactanos a{
+    color: white;
+    padding: 5px;
+}
+.navmenuitems {
+    flex-direction: row;
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    max-height: 50%;
+    padding-top: 30px;
+}
+
+
+.redessocialeslogos{
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+    justify-content: right;
+    align-items: flex-end;
+
+}
+
+.redessocialeslogos a{
+    width: 32px;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.section3 .section4 .section5{
+    width: 100%vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section3container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: aqua;
+}
+
+.secondary-section-title{
+    text-align: center;
+}
+
+.modelopreciocard{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.list-prop-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.formcontain{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario-telefono-nombre{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.formulario-nombre{
+    input{
+    width: 464px;
+    height: 36px;
+    position: relative;
+    left: 248px;
+}
+}
+
+.botonnegro{
+    text-decoration: none;
+
+    width: 129px;
+    height: 32px;
+    left: 343px;
+    top: 273px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5%;
+    justify-content: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botonblanco{
+    text-decoration: none;
+
+    width: 129px;
+    height: 32px;
+    left: 488px;
+    top: 273px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border-radius: 5%;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 8px;
+    border-color: black;
+border: 2px;
+
+}
+
+.section-title {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+
+
+}
+.section-title h1{
+
+    width: 494px;
+    height: 62px;
+    left: 233px;
+    top: 179px;
+    
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    justify-content: center;
+}
+.section-title span{
+
+    width: fit-content;
+    height: 19px;
+    left: 71.55px;
+    top: 139px;
+    padding-bottom: 30px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #858585;
+    }
+
+    .section2 h2 {
+width: 288px;
+height: 72px;
+left: 15.55px;
+top: 608px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+    }
+
+.section2 .secondary-section-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+
+
+.botoncontainer{
+    display: flex;
+    flex-direction: row;
+    width: 274px;
+    justify-content: space-around;
+    height: 32px;
+    position: relative;
+
+
+}
+
+.fondomanos{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+
+}
+
+.section1, .section2, .section3, .section4, .section5 {
+    width: 100vw;
+    height: 80vw;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorsection2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+}
+
+.section2tar{
+    max-width: 400px;
+
+}
+
+.section2tar h3, p, span, li {
+ color: white;
+}
+
+.section2tar h3, p,span, li{
+    color: white;
+   }
+.imagenpianoebony{
+    width: 100%;
+}
+.section1 {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+}

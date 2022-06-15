@@ -1,0 +1,33 @@
+.cuadro {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.flex-start {
+ display: flex;
+border: 1px black groove;
+height: 60px;
+width: 600px;
+justify-content: flex-start;
+}
+.cuadro-rojo {
+    height: 50px;
+    width: 150px;
+    justify-content: flex-start;
+    background-color: blue;
+}
+.cuadro-azul {
+    height: 50px;
+    width: 150px;
+    justify-content: flex-end;
+    background-color: blue;
+}
+.flex-end {
+display: flex;
+border: 1px black groove;
+height: 60px;
+width: 600px;
+justify-content: flex-end;
+}

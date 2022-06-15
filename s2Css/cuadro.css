@@ -1,0 +1,56 @@
+.cuadro {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.azul {
+    background-color: blue;
+}
+.rojo {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+}
+.flex-start {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: flex-start;
+}
+.flex-end {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: flex-end;
+}
+.flex-center {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: center;
+}
+.flex-space-around {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: space-around;
+}
+.flex-space-between {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: space-between;
+}
+.flex-space-evenly {
+    display: flex;
+    border: 1px black groove;
+    height: 60px;
+    width: 600px;
+    justify-content: space-evenly;
+}
